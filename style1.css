@@ -1,0 +1,52 @@
+body,html{
+	margin:0;
+	padding: 0;
+	width: 100%;
+
+}
+
+body{
+	background: url(beta.jpg);
+	background-size: cover;
+	font-family: "Montserrat", sans-serif;
+
+}
+
+.container{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.container h1{
+	text-transform: uppercase;
+	font-size: 60px;
+	margin: 20px;
+	letter-spacing: 10px;
+}
+
+.count{
+ margin: 40px 0;
+}
+
+.countd{
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: 2px solid;
+	margin: 0 30px;
+	font-size: 12px;
+	border-radius: 50px;
+	overflow: hidden;
+	
+}
+
+.countd span{
+	display: block;
+	font-size: 26px;
+	margin-top: 14px;
+}
